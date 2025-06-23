@@ -1,3 +1,23 @@
-Discuss the state-of-the-art with respect to your product. What solutions currently exist, and in what form (academic research, enthusiast prototype, commercially available, etc.)? Include references and citations as necessary using the \textit{cite} command, like this \cite{Rubin2012}. If there are existing solutions, why won't they work for your customer (too expensive, not fast enough, not reliable enough, etc.). This section should occupy 1/2 - 1 full page, and should include at least 5 references to related work. All references should be added to the \textit{.bib} file, fully documented in IEEE format, and should appear in the \textit{references} section at the end of this document (the IEEE citation style will automatically be applied if your reference is properly added to the \textit{.bib} file).
+There are several existing tools and technologies that address water simulation, flood modeling, or educational visualization, but each has significant limitations for the objectives of the AR Wetlands Watchers project.
 
-ProTip: Consider using a citation manager such as Mendeley, Zotero, or EndNote to generate your \textit{.bib} file and maintain documentation references throughout the life cycle of the project.
+The U.S. Army Corps of Engineers developed HEC-RAS, a highly regarded river analysis system capable of simulating complex water flow and floodplain scenarios \cite{HECRAS2024}. While extremely powerful, it requires domain expertise and is primarily designed for technical engineering applications, not for public education or interactive AR visualization.
+
+Esri’s ArcGIS StoryMaps platform provides interactive web-based storytelling using geographic data \cite{ArcGIS2024}. While useful for presenting environmental data, it does not offer real-time physical interaction or immersive AR capabilities that engage non-technical audiences.
+
+SimTable offers a sand-table-based simulation system combining physical models with projected simulations for wildfire and flood planning \cite{SimTable2023}. However, it involves specialized hardware, large physical space, and high costs, limiting its accessibility for widespread use in classrooms, public outreach, or portable community demonstrations.
+
+FloodSim is a serious game designed to teach policy trade-offs in flood management \cite{FloodSim2023}. Although educational, it is screen-based and lacks real-world spatial interaction or physical engagement with models.
+
+Finally, several AR environmental demos have been created using Microsoft HoloLens and other high-end AR devices \cite{HoloLens2023}. While technologically impressive, these systems often require expensive headsets that are impractical for widespread community deployment, especially in budget-constrained educational settings.
+
+While these existing solutions offer valuable features, they each have significant limitations for our intended use case. Many require expensive specialized hardware, lack true real-time user interaction with physical spaces, or do not provide easily portable, low-cost options for schools, public outreach events, or disaster preparedness training. Our AR Wetlands Watchers project is designed specifically to address these gaps by offering:
+
+\item Accessibility through common mobile devices.
+
+\item Low-cost implementation using widely available AR platforms.
+
+\item Hands-on interaction with simulated environments in real time.
+
+\item Customizable educational content for both professionals and public audiences.
+
+By focusing on these strengths, our solution will deliver a unique combination of technical capability and broad accessibility that existing systems do not fully achieve.
